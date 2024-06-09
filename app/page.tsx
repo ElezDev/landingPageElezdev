@@ -16,22 +16,22 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none ">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hola Soy <br />{" "}
-              <span className="text-accent">Edwin Ledezma</span>
+              Hola Soy <br /> <span className="text-accent">Edwin Ledezma</span>
             </h1>
             <p className="max-w-[50] mb-9 text-white/80">
-              Specializing in technologies such as Flutter, Kotlin, Laravel,
-              Angular, and React. 💡 My journey in development has honed my
-              skills and versatility in crafting innovative solutions. From
-              mobile apps using Flutter and Kotlin to web applications with
-              Angular and React, I thrive on challenging projects. 🌐
-              Collaboration and effective communication are key in my work. I'm
-              not just about solving problems; I prioritize efficiency and
-              results in everything I do. 🏆 I've contributed to the success of
-              significant projects, learning from each experience. I'm excited
-              for the future and eager to keep growing in the dynamic world of
-              technology. Let's connect and explore how I can contribute to your
-              next big project! 🔗✨
+              Especializado en tecnologías como Flutter, Kotlin, Laravel,
+              Angular y React. 💡 Mi trayectoria en el desarrollo ha
+              perfeccionado mis habilidades y versatilidad en la creación de
+              soluciones innovadoras. Desde aplicaciones móviles usando Flutter
+              y Kotlin hasta aplicaciones web con Angular y React, prospero en
+              proyectos desafiantes. 🌐 La colaboración y la comunicación
+              efectiva son clave en mi trabajo. No solo se trata de resolver
+              problemas; priorizo la eficiencia y los resultados en todo lo que
+              hago. 🏆 He contribuido al éxito de proyectos significativos,
+              aprendiendo de cada experiencia. Estoy emocionado por el futuro y
+              ansioso por seguir creciendo en el dinámico mundo de la
+              tecnología. ¡Conectémonos y exploremos cómo puedo contribuir a tu
+              próximo gran proyecto! 🔗✨
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -54,11 +54,11 @@ const Home = () => {
           {/* {foto} */}
 
           <div className="order-1 xl:order-none bm-8 xl:mb-0">
-            <Photo/>
+            <Photo />
           </div>
         </div>
       </div>
-      <Stats/>
+      <Stats />
     </section>
   );
 };
